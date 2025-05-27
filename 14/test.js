@@ -1,9 +1,8 @@
 const strs = ["a", "a"];
 const arrayOfArray = strs.map(str => str.split(""));
 
-let n = 0;
-
-while (arrayOfArray[0][0] === arrayOfArray[n][0]) {
-    n++;
-    
+for (let i = 0; i < arrayOfArray.length; i++) {
+    if (arrayOfArray[0][0] === arrayOfArray [i][0]) {
+        
+    }
 }
