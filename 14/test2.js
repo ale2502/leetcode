@@ -1,4 +1,4 @@
-const strings = ["flower", "flow", "flight"];
+const strings = ["hi", "jo"];
 const arrayLength = strings.length;
 const shortestString = Math.min(...strings.map(x => x.length));
 let result = '';
